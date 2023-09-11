@@ -1,0 +1,11 @@
+### GET Deposit
+POST http://localhost:8888/deposit
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer Rmlrb1JlZGhhRmViaWFuc3lhaA==
+
+{
+    "order_id" : "123",
+    "amount" : 25000,
+    "timestamp" : "2023-09-09 14:00:00"
+}
